@@ -36,12 +36,8 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         text = "Hello $name!",
         modifier = modifier
     )
+    Text(
+        text ="Hello branch"
+    )
 }
 
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    CirulestestTheme {
-        Greeting("Android")
-    }
-}
