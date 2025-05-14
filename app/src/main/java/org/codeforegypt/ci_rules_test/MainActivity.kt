@@ -36,7 +36,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         modifier = modifier
     )
     Text(
-        text ="Hello branch"
+        text ="Hello branch fthhtyy"
     )
 }
 
